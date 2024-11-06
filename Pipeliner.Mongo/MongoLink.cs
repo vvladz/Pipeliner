@@ -12,5 +12,5 @@ public sealed record MongoLink(string Uri, string Db, string Collection)
         new(uri, null!, null!);
 
     public static MongoLink Local() =>
-        From("mongodb://loclahost:27017");
+        From("mongodb://localhost:27017");
 }
